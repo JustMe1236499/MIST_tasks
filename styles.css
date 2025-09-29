@@ -1,0 +1,92 @@
+/* ========== Basic page setup ========== */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Oswald', 'SUSE Mono' ,monospace;
+  line-height: 1.5;
+  color: #000000;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 9000px;
+  padding: 15px;
+  background: linear-gradient(to bottom, #2a264a, #1b2441);
+  
+}
+
+/* ========== Header + Nav ========== */
+.site-header {
+
+  border-bottom: 2px inset #312c57;
+}
+.site-header a{ 
+  font-family: 'SUSE mono';
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.site-header h1 {
+  font-size: 30px;
+  margin: 8px 0;
+}
+
+.site-nav { margin-left: auto; }
+.site-nav a:hover {
+  background:linear-gradient(to right, #191f36, #2d2b42);
+  box-shadow: 1px 1px #160909;
+  border-radius: 8px;
+}
+.site-nav a {
+  color: #595f84;
+  text-decoration: none;
+  padding: 6px 8px;
+  display: inline-block;
+}
+
+
+
+/* ========== Intro text settings ========== */
+.intro { 
+  color: #6671b5; 
+  margin: 12px 0 16px; 
+  font-family: 'SUSE mono';
+}
+.muted, .mute { 
+  color: #595f84; 
+}
+
+
+/* ========== Cards ========== */
+.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #3498DB;
+  background: linear-gradient(to bottom, #253055, #312c57);
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.card:hover{
+  box-shadow: 5px 5px #1e1d27;
+}
+.list{
+  font-family: 'SUSE mono';
+  color:#6671b5;
+}
+.card h2 { margin: 4px 0 6px; font-size: 18px; }
+.card .muted { 
+  margin: 0 0 6px; 
+  font-family: 'SUSE mono';
+}
+
+
+
+
+
+
